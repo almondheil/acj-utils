@@ -1,0 +1,16 @@
+What needs to happen for this to be functional?
+
+I want to provide a mechanism that lets you load up all the ids involved, and
+then gives you comparisons to make based on those ids and the results of
+comparisons so far.
+
+You call some method that's just like
+
+	ACJ(data, ...)
+
+and it returns an object that's gonna let you do the stuff.
+
+that object should be able to:
+	get a script by its ID
+	get the id of a script
+
